@@ -1,0 +1,31 @@
+title:
+---
+body:
+
+<img class='AboutPageImg' src='/static/img/works/AboutImg.svg' />
+
+ <div>
+
+     <div class="col-md-6 col-xs-12 MyPhotoImg">
+   <img class="MyPhoto" src='/static/img/works/MyPhoto.svg' />
+
+      </div>
+
+   <div class="col-md-6 col-xs-12 TextAbout">
+     <p>
+       Hello, I am a UX Designer from Ukraine living in Hamburg. </p>
+       <p>
+     I'm currently freelancing and always up for new  challenges. I'm looking for collaboration with people and companies to bring their ideas in digital life.
+     </p>
+       <p>
+     I enjoy to be involved into the whole process, starting from conceptualizing idea to designing, prototyping, testing and realisation.
+     </p>
+       <p>
+     I love graphic design, illustration, installation and a bit of coding.
+     </p>
+       <p>
+     To achieve the goal in my work I use latest technology and intuition.
+     </p>
+   </div>
+
+ </div>

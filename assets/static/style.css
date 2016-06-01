@@ -1,0 +1,186 @@
+body {
+    font-family: 'Century Gothic', Regular;
+    margin: 50px 25px;
+    background: #11001D;
+    color: #ffffff;
+
+}
+
+a {
+    color: #6c6971;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #755;
+
+}
+
+/*div.page {*/
+    /*width: 1000px;*/
+    /*height: 650px;*/
+    /*margin: 0 auto;*/
+    /*padding: 20px 30px;*/
+/*}*/
+
+header {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #3E3446;
+    bottom: 20px;
+}
+
+img.LogoImg {
+    position: relative;
+    width:100%;
+    margin-top: -50px;
+}
+
+header h1 {
+    color: white;
+    /*margin: 0;*/
+    /*font-weight: normal;*/
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px;
+}
+/*p {*/
+    /*font-size: 20px;*/
+/*}*/
+
+header h1.Logo {
+    font-family: 'Asenine Wide', Regular;
+    font-size: 52px;
+}
+
+p.profession {
+    color: #3E3446;
+    margin: -20px 0 0 380px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 0;
+}
+
+
+li.main-menu > a:hover {
+    background-color: transparent;
+}
+.main-menu.active a {
+    color: white;
+}
+.home-page-logo:hover {
+    text-decoration: none;
+}
+
+.nav-menu {
+    margin-top: 30px;
+}
+
+.ContactPageImg {
+}
+
+.contacts {
+    margin-top: 190px;
+    text-align: center;
+}
+
+.contacts-disc {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+.Container-ContactImg {
+    text-align: center;
+    margin-top: 40px;
+}
+.ContactImg {
+    margin: 20px 20px 0 20px;
+}
+img.ContactPageImg {
+    position: fixed;
+    width:80%;
+    margin-top: -40px;
+    z-index: -1;
+}
+img.AboutPageImg {
+    position: fixed;
+    width:85%;
+    margin-top: -90px;
+    margin-left: -50px;
+    z-index: -1;
+}
+.TextAbout {
+    width: 490px;
+    margin-top: 120px;
+    margin-left: 10px;
+    font-size: 16px;
+   font-weight: 100;
+    text-indent: 30px;
+}
+.MyPhoto {
+    width: 80%;
+    margin-left: 30px;
+}
+
+.portfolio-container {
+    width: 90%;
+    margin: 50px auto 0 auto;
+}
+
+.flex-row {
+    display: flex;
+    align-content: center;
+}
+
+
+.flex-col {
+    padding: 0 10px;
+}
+
+.flex-col a {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.flex-col a:hover {
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+
+
+
+.portfolio-img {
+    width: 100%;
+}
+
+.portfolio-img:hover {
+    opacity: 0.3;
+}
+
+.Container-ContactImg a:hover {
+    background-color: transparent;
+
+
+}
+.Container-ContactImg img:hover {
+     width: 4%;
+}
