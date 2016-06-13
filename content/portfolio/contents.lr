@@ -1,44 +1,55 @@
 _model: page
 ---
 title:
-
 ---
 body:
 
-
-
-<div class="flex-row portfolio-container">
-    <div class="flex-col">
-        <a href="/">
-            <img class='portfolio-img' src='/static/img/works/Karnaval.jpg'/>
-        </a>
-    </div>
-    <div class="flex-col">
-        <div class="flex-row">
-            <div class="flex-col">
-                <a href="/">
-                    <img class='portfolio-img' src='/static/img/works/Green.jpg'/>
-                </a>
-            </div>
-            <div class="flex-col">
-                <a href="/">
-                    <img class='portfolio-img' src='/static/img/works/Ice-cream.jpg' />
-                </a>
-            </div>
+<div class="container-works">
+        <div class="container-works-name">
+            <h2>Portfolio</h2>
+                <ul onmouseleave="showDefaultImg()">
+                    <a onmouseover="showImgOnMouseOver('/static/img/works/Traveling-Magazin.jpg')"
+                       href="https://www.behance.net/gallery/35264791/Traveling-Magazine"
+                       target="_blank"
+                    >
+                        <li>Traveling Magazine</li>
+                    </a>
+                     <a onmouseover="showImgOnMouseOver('/static/img/works/Wedding-Landing-page.jpg')" href="https://www.behance.net/gallery/35047821/Web-Mobile-landing-pages" target="_blank">
+                    <li>Wedding landing pages</li>
+                         </a>
+                    <a onmouseover="showImgOnMouseOver('/static/img/works/Banners.jpg')" href="https://www.behance.net/gallery/33823266/Banner-for-IT" target="_blank">
+                    <li>Banner</li>
+                        </a>
+                    <a onmouseover="showImgOnMouseOver('/static/img/works/Logo-XStyle.jpg')" href="https://www.behance.net/gallery/33486415/X-Style-Logo-Business-cards" target="_blank">
+                    <li>Logo</li>
+                        </a>
+                    <a onmouseover="showImgOnMouseOver('/static/img/works/DakotA.jpg')" href="https://www.behance.net/gallery/33638553/pub-DakotA" target="_blank">
+                    <li>Pub DakotA</li>
+                        </a>
+                     <a onmouseover="showImgOnMouseOver('/static/img/works/Trinity.jpg')" href="https://www.behance.net/gallery/32508417/TRINITY-(Dance-school)-Desktop-version" target="_blank">
+                    <li>Trinity dance school</li>
+                         </a>
+                    <a onmouseover="showImgOnMouseOver('/static/img/works/Wedding-site.jpg')" href="https://www.behance.net/gallery/32516855/Wedding-site" target="_blank">
+                    <li>Wedding site</li>
+                        </a>
+                </ul>
         </div>
-        <div class="flex-row">
-            <div class="flex-col">
-                <a href="/">
-                    <img class='portfolio-img' src='/static/img/works/Fireworks.jpg'/>
+        <div class="container-work-img">
+            <a href="https://www.behance.net/Ksuy" target="_blank">
+            <img id='imgOnMouseOver' src='/static/img/works/Portfolio.svg'/>
                 </a>
-            </div>
-            <div class="flex-col">
-                <a href="/">
-                    <img class='portfolio-img' src='/static/img/works/House.jpg' />
-                </a>
-            </div>
         </div>
-    </div>
 
 </div>
+<script>
+    var imgOnMouseOver = document.getElementById('imgOnMouseOver');
+    function showImgOnMouseOver(imgLink) {
+        imgOnMouseOver.src = imgLink;
+        imgOnMouseOver.style.display = 'block';
+    }
+    function showDefaultImg() {
+        imgOnMouseOver.src = '/static/img/works/Portfolio.svg';
+    }
+
+</script>
 

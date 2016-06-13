@@ -1,0 +1,18 @@
+_model: page
+---
+title:
+---
+body:
+
+<h2 class="Photo-class">Nature</h2>
+
+<div class="PhotoStructure">
+
+    <img class="Nature-Img" src='/static/img/works/Nature/Swan1.jpg'/>
+    <img class="Nature-Img" src='/static/img/works/Nature/Duck1.jpg'/>
+    <img class="Nature-Img" src='/static/img/works/Nature/Lake1.jpg'/>
+    <img class="Nature-Img" src='/static/img/works/Nature/Bench1.jpg'/>
+    <img class="Nature-Img" src='/static/img/works/Nature/Meer1.jpg'/>
+    <img class="Nature-Img" src='/static/img/works/Nature/Mushroom1.jpg'/>
+
+</div>

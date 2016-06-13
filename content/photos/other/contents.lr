@@ -1,0 +1,15 @@
+_model: page
+---
+title:
+---
+body:
+<h2 class="Photo-class">Other</h2>
+
+<div class="PhotoStructure">
+    <img class="Nature-Img" src='/static/img/works/Movement/Fire2.jpg'/>
+    <img class="Nature-Img" src='/static/img/works/Movement/Fire1.jpg'/>
+     <img class="Nature-Img" src='/static/img/works/Movement/Movement1.jpg'/>
+    <img class="Nature-Img" src='/static/img/works/Movement/QM2.jpg'/>
+     <img class="Nature-Img" src='/static/img/works/Movement/Water1.jpg'/>
+
+</div>

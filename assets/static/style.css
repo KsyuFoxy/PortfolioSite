@@ -10,18 +10,16 @@ a {
     color: #6c6971;
 }
 
+a:focus {
+    text-decoration: none;
+    color: #6c6971;
+
+}
 a:hover {
     color: #ffffff;
     background-color: #755;
 
 }
-
-/*div.page {*/
-    /*width: 1000px;*/
-    /*height: 650px;*/
-    /*margin: 0 auto;*/
-    /*padding: 20px 30px;*/
-/*}*/
 
 header {
     width: 1200px;
@@ -46,17 +44,12 @@ img.LogoImg {
 
 header h1 {
     color: white;
-    /*margin: 0;*/
-    /*font-weight: normal;*/
     font-size: 48px;
 }
 
 h2 {
     font-size: 40px;
 }
-/*p {*/
-    /*font-size: 20px;*/
-/*}*/
 
 header h1.Logo {
     font-family: 'Asenine Wide', Regular;
@@ -191,4 +184,71 @@ img.AboutPageImg {
     width: 50px;
     bottom: 5px;
     left: -5px;
+}
+
+.container-works {
+    display: flex;
+    width: 90%;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+.container-works-name {
+    flex: 1;
+}
+.container-work-img {
+    flex: 2;
+}
+
+.container-works h2 {
+  margin-bottom: 30px;
+}
+
+.container-works-name li {
+    list-style: none;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.container-works-name ul {
+    padding-left: 0;
+}
+
+/*.container-works-name a:focus {*/
+    /*text-decoration: none;*/
+    /*color: #6c6971;*/
+
+/*}*/
+
+.container-works-name a:hover {
+    text-decoration: none;
+}
+
+.container-works-name li:focus {
+    list-style: disc;
+}
+
+.container-works-name li:hover{
+    list-style: disc;
+}
+.container-work-img img {
+    width: 70%;
+}
+
+.Photo-class {
+    text-align: center;
+    margin: 40px auto 20px auto;
+}
+
+.Photos-name {
+    position: inherit;
+}
+
+.PhotoStructure {
+    width: 1250px;
+    margin-right: 0;
+}
+
+.Nature-Img {
+    width: 45%;
+    margin-bottom: 3px;
 }

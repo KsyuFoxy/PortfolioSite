@@ -1,0 +1,12 @@
+_model: page
+---
+title:
+---
+body:
+<h2 class="Photo-class">Buildings</h2>
+
+<div class="PhotoStructure">
+    <img class="Nature-Img" src='/static/img/works/Buildings/Castle1.jpg'/>
+    <img class="Nature-Img" src='/static/img/works/Buildings/Fortress1.jpg'/>
+
+</div>
