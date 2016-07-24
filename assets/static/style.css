@@ -268,8 +268,8 @@ img.AboutPageImg {
 
 .Nature-Img {
     display: inline-block;
-    width: 50%;
-    /*padding: 3px;*/
+    width: 49%;
+    padding: 3px;
 
 }
 .Nature-Img-Vertical {
