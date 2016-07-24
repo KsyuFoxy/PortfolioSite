@@ -6,10 +6,16 @@ body:
 <h2 class="Photo-class">Other</h2>
 
 <div class="PhotoStructure">
-    <img class="Nature-Img" src='/static/img/works/Movement/Fire2.jpg'/>
-    <img class="Nature-Img" src='/static/img/works/Movement/Fire1.jpg'/>
-     <img class="Nature-Img" src='/static/img/works/Movement/Movement1.jpg'/>
-    <img class="Nature-Img" src='/static/img/works/Movement/QM2.jpg'/>
-     <img class="Nature-Img" src='/static/img/works/Movement/Water1.jpg'/>
+    <div class="PhotoStructureLeft">
+        <img class="Nature-Img-Vertical" src='/static/img/works/Movement/Fire1.jpg'/>
+        <img class="Nature-Img-Horizontal" src='/static/img/works/Movement/Fire2.jpg'/>
+
+        <img class="Nature-Img" src='/static/img/works/Movement/QM2.jpg'/>
+        <img class="Nature-Img" src='/static/img/works/Movement/Water1.jpg'/>
+        <img class="Nature-Img" src='/static/img/works/Movement/Movement1.jpg'/>
+    </div>
+    <div class="PhotoStructureRight">
+
+    </div>
 
 </div>

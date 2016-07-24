@@ -6,7 +6,10 @@ body:
 <h2 class="Photo-class">Buildings</h2>
 
 <div class="PhotoStructure">
-    <img class="Nature-Img" src='/static/img/works/Buildings/Castle1.jpg'/>
-    <img class="Nature-Img" src='/static/img/works/Buildings/Fortress1.jpg'/>
+    <img class="Nature-Img-Horizontal" src='/static/img/works/Buildings/Castle1.jpg'/>
+    <img class="Nature-Img-Vertical" src='/static/img/works/Buildings/Fortress1.jpg'/>
+    <img class="Nature-Img-Vertical" src='/static/img/works/Buildings/Munchen1.jpg'/>
+    <img class="Nature-Img-Horizontal" src='/static/img/works/Buildings/Utrecht1.jpg'/>
+    <img class="Nature-Img-Horizontal" src='/static/img/works/Buildings/Amster1.jpg'/>
 
 </div>

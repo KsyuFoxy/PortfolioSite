@@ -2,4 +2,7 @@ title:
 ---
 body:
 
-<img class='LogoImg' src='/static/img/works/LogoT.svg' />
+<div class="home-page-image">
+    <img class='LogoImg' src='/static/img/works/Cyrcle2.png' />
+</div>
+

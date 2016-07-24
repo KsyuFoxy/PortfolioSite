@@ -3,7 +3,7 @@ _model: page
 title:
 ---
 body:
-<img class='ContactPageImg' src='/static/img/works/ContactPage.svg' />
+<img class='ContactPageImg' src='/static/img/works/HalfCyrcle.png' />
 
 <h2 class="contacts">Contact</h2>
 

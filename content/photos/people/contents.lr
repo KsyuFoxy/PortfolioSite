@@ -1,3 +1,16 @@
 _model: page
 ---
-title: People
+title:
+---
+body:
+<h2 class="Photo-class">People</h2>
+
+<div class="PhotoStructure">
+
+    <img class="Nature-Img-Vertical" src='/static/img/works/People/Karnaval3.jpg'/>
+    <img class="Nature-Img-Horizontal" src='/static/img/works/People/Karnaval1.jpg'/>
+    <img class="Nature-Img-Horizontal" src='/static/img/works/People/Karnaval2.jpg'/>
+     <img class="Nature-Img-Horizontal" src='/static/img/works/People/Karnaval4.jpg'/>
+    <img class="Nature-Img-Horizontal" src='/static/img/works/People/Karnaval5.jpg'/>
+
+</div>

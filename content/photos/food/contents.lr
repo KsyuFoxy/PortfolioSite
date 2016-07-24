@@ -1,3 +1,13 @@
 _model: page
 ---
-title: Food
+title:
+---
+body:
+<h2 class="Photo-class">Food</h2>
+
+<div class="PhotoStructure">
+    <img class="Nature-Img-Horizontal" src='/static/img/works/Food/Ice-Cream.jpg'/>
+    <img class="Nature-Img-Vertical" src='/static/img/works/Food/Makarun1.jpg'/>
+
+
+</div>
