@@ -22,5 +22,8 @@ body:
     <a href="skype:Oksana.o.k.?chat" target="_blank">
 <img class='ContactImg' src='/static/img/works/Skype.svg' />
         </a>
+     <a href="https://github.com/KsyuFoxy" target="_blank">
+<img class='ContactImg' src='/static/img/works/Git.svg' />
+        </a>
 </div>
 

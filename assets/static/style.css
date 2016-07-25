@@ -28,14 +28,13 @@ header {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    color: #b3c4cc;
+    color: #a3a4c5;
     opacity: 0.1;
-
-    bottom: 20px;
+    bottom: 10px;
 }
 .home-page-image {
     display: flex;
@@ -65,7 +64,7 @@ header h1.Logo {
 }
 
 p.profession {
-    color: #cff2ff;
+    color: #a3a4c5;
     margin: -20px 0 0 380px;
 }
 
@@ -117,23 +116,25 @@ img.ContactPageImg {
 }
 img.AboutPageImg {
     position: fixed;
-    width: 70%;
-    margin-top: 30px;
-    margin-left: 200px;
-    opacity: 0.6;
+    width: 80%;
+    margin-top: -30px;
+    /*margin-left: 20px;*/
+    margin-left: -40px;
+    /*opacity: 0.6;*/
     z-index: -1;
 }
 .TextAbout {
     width: 490px;
     margin-top: 120px;
-    margin-left: 10px;
+    margin-left: 80px;
     font-size: 16px;
    font-weight: 100;
     text-indent: 30px;
 }
 .MyPhoto {
-    width: 80%;
-    margin-left: 30px;
+    width: 70%;
+    margin-left: 65px;
+    margin-top: 8px;
 }
 
 .portfolio-container {
@@ -173,7 +174,7 @@ img.AboutPageImg {
 .Container-ContactImg {
     display: flex;
     /*justify-content: center;*/
-   margin-left: 150px;
+   margin-left: 110px;
     margin-top: 40px;
     width: 100%;
     height: 50px;
@@ -257,6 +258,7 @@ img.AboutPageImg {
     width: 562.5px;
     margin-bottom: 3px;
 }
+
 .Nature-Img-Vertical {
     height: 520px;
     margin-bottom: 3px;
