@@ -4,15 +4,67 @@ title:
 ---
 body:
 
-<h2 class="Photo-class">Nature</h2>
+<h2 class="Photo-class" xmlns="http://www.w3.org/1999/html">Nature</h2>
 
 <div class="PhotoStructure">
 
-    <img class="Nature-Img" src='/static/img/works/Nature/Swan1.jpg'/>
-    <img class="Nature-Img" src='/static/img/works/Nature/Duck1.jpg'/>
-    <img class="Nature-Img" src='/static/img/works/Nature/Lake1.jpg'/>
-    <img class="Nature-Img" src='/static/img/works/Nature/Bench1.jpg'/>
-    <img class="Nature-Img" src='/static/img/works/Nature/Meer1.jpg'/>
-    <img class="Nature-Img" src='/static/img/works/Nature/Mushroom1.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Nature/Meer2.jpg', 'high')" class="Nature-Img-Vertical" src='/static/img/works/Nature/Meer2.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Nature/Cave1.jpg')" class="Nature-Img-Horizontal" src='/static/img/works/Nature/Cave1.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Nature/Meer3.jpg')" class="Nature-Img-Horizontal" src='/static/img/works/Nature/Meer3.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Nature/Flowers1.jpg', 'high')" class="Nature-Img-Vertical" src='/static/img/works/Nature/Flowers1.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Nature/Swan1.jpg')" class="Nature-Img" src='/static/img/works/Nature/Swan1.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Nature/Duck1.jpg')" class="Nature-Img" src='/static/img/works/Nature/Duck1.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Nature/Lake1.jpg')" class="Nature-Img" src='/static/img/works/Nature/Lake1.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Nature/Bench1.jpg')" class="Nature-Img" src='/static/img/works/Nature/Bench1.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Nature/Meer1.jpg')" class="Nature-Img" src='/static/img/works/Nature/Meer1.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Nature/Mushroom1.jpg')" class="Nature-Img" src='/static/img/works/Nature/Mushroom1.jpg'/>
+
 
 </div>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div id='modalContent' class="modal-content">
+    <span class="close">x</span>
+     <img id='modalImg' class="modal-img" src=''/>
+  </div>
+
+</div>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    var modalContent = document.getElementById('modalContent');
+
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    };
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    function showMyModal(src, type) {
+        var modalImg = document.getElementById('modalImg');
+        modal.style.display = "block";
+        if (type === 'high') {
+            modalImg.style.height = '700px';
+            modalContent.style.width = '40%';
+        } else {
+            modalContent.style.width = '70%';
+        }
+        modalImg.src = src;
+
+    }
+</script>
