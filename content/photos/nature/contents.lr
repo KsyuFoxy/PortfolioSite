@@ -19,7 +19,6 @@ body:
     <img onclick="showMyModal('/static/img/works/Nature/Meer1.jpg')" class="Nature-Img" src='/static/img/works/Nature/Meer1.jpg'/>
     <img onclick="showMyModal('/static/img/works/Nature/Mushroom1.jpg')" class="Nature-Img" src='/static/img/works/Nature/Mushroom1.jpg'/>
 
-
 </div>
 
 
@@ -60,7 +59,7 @@ body:
         modal.style.display = "block";
         if (type === 'high') {
             modalImg.style.height = '700px';
-            modalContent.style.width = '40%';
+            modalContent.style.width = '35%';
         } else {
             modalContent.style.width = '70%';
         }
