@@ -8,36 +8,40 @@ body:
 
 
 <div class="flex-row portfolio-container">
-    <div class="flex-col">
+    <div class="flex-col flex-col-People">
         <a href="people">
             <img class='portfolio-img' src='/static/img/works/Karnaval.jpg'/>
-            <span>People</span>
         </a>
+        <span>People</span>
 
     </div>
-    <div class="flex-col">
+    <div>
         <div class="flex-row">
-            <div class="flex-col">
+            <div class="flex-col flex-col-other">
                 <a href="nature">
                     <img class='portfolio-img' src='/static/img/works/Green.jpg'/>
                 </a>
+                <span>Nature</span>
             </div>
-            <div class="flex-col">
+            <div class="flex-col flex-col-other">
                 <a href="food">
                     <img class='portfolio-img' src='/static/img/works/Ice-cream.jpg' />
                 </a>
+                <span>Food</span>
             </div>
         </div>
         <div class="flex-row">
-            <div class="flex-col">
+            <div class="flex-col flex-col-other">
                 <a href="other">
                     <img class='portfolio-img' src='/static/img/works/Fireworks.jpg'/>
                 </a>
+                <span>Other</span>
             </div>
-            <div class="flex-col">
+            <div class="flex-col flex-col-other">
                 <a href="buildings">
                     <img class='portfolio-img' src='/static/img/works/House.jpg' />
                 </a>
+                <span>Buildings</span>
             </div>
         </div>
     </div>

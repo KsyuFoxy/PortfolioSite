@@ -146,45 +146,73 @@ img.AboutPageImg {
     display: flex;
     align-content: center;
 }
-
-
-.flex-col {
-    padding: 0 10px;
-}
-
-.flex-col a {
-    display: block;
-    margin-bottom: 20px;
-}
-
-.flex-col a:hover {
-    background-color: black;
-    opacity: 0.2;
-    color: #080411;
-}
-
-
 .portfolio-img {
     width: 100%;
 }
+.flex-col {
+    padding: 0;
+    margin-bottom: 15px;
+    margin-right: 9px;
+}
 
-/*.portfolio-img:hover {*/
-    /*opacity: 0.3;*/
-/*}*/
+.flex-col-People {
+    position: relative;
+}
 
-.flex-col span {
-   position: absolute;
-    /*top:-300px;*/
-    color: #ffffff;
-   display: none;
-    font-size: 30px;
+.flex-col-People a {
+    position: relative;
+    display: block;
+}
+
+.flex-col-other {
+    position: relative;
+}
+
+.flex-col-other a{
+    position: relative;
+    display: block;
+
+}
+
+.flex-col a:hover {
+    background-color: #ffffff;
+    opacity: 0.2;
+    text-decoration: none;
 }
 .flex-col:hover span {
     display: block;
-    color: #ffffff;
-    z-index: 1;
-    text-decoration: none;
 }
+
+
+
+.flex-col span {
+     position: absolute;
+    display: none;
+    font-size: 30px;
+     text-decoration: none;
+}
+.flex-col-People span {
+     width: 100px;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #ffffff;
+}
+
+.flex-col-other span {
+    width: 90px;
+    height: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #ffffff;
+}
+
 
 .Container-ContactImg {
     display: flex;
