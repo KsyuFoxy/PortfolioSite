@@ -8,6 +8,8 @@ body:
 <div class="PhotoStructure">
     <img onclick="showMyModal('/static/img/works/Food/Ice-Cream.jpg', 'high')" class="Nature-Img-Horizontal" src='/static/img/works/Food/Ice-Cream.jpg'/>
     <img onclick="showMyModal('/static/img/works/Food/Makarun1.jpg')" class="Nature-Img-Vertical" src='/static/img/works/Food/Makarun1.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Food/Cafe.jpg')" class="Nature-Img-Vertical" src='/static/img/works/Food/Cafe.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Food/Candy1.jpg', 'high')" class="Nature-Img-Horizontal" src='/static/img/works/Food/Candy1.jpg'/>
 
 
 </div>

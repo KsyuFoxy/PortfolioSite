@@ -10,8 +10,10 @@ body:
     <img onclick="showMyModal('/static/img/works/Buildings/Fortress1.jpg', 'high')" class="Nature-Img-Vertical" src='/static/img/works/Buildings/Fortress1.jpg'/>
     <img onclick="showMyModal('/static/img/works/Buildings/Munchen1.jpg', 'high')" class="Nature-Img-Vertical" src='/static/img/works/Buildings/Munchen1.jpg'/>
     <img onclick="showMyModal('/static/img/works/Buildings/Utrecht1.jpg')" class="Nature-Img-Horizontal" src='/static/img/works/Buildings/Utrecht1.jpg'/>
-    <img onclick="showMyModal('/static/img/works/Buildings/Amster1.jpg')" class="Nature-Img-Horizontal" src='/static/img/works/Buildings/Amster1.jpg'/>
-
+    <img onclick="showMyModal('/static/img/works/Buildings/Amster1.jpg', 'high')" class="Nature-Img-Vertical" src='/static/img/works/Buildings/Amster1.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Buildings/Stade.jpg')" class="Nature-Img-Horizontal" src='/static/img/works/Buildings/Stade.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Buildings/Mallorka1.jpg')" class="Nature-Img-Horizontal" src='/static/img/works/Buildings/Mallorka1.jpg'/>
+    <img onclick="showMyModal('/static/img/works/Buildings/Monastery.jpg', 'high')" class="Nature-Img-Vertical" src='/static/img/works/Buildings/Monastery.jpg'/>
 </div>
 
    <div id="myModal" class="modal">
@@ -25,6 +27,10 @@ body:
 
 <script>
 
+    var footer = document.getElementById('footer');
+    console.log('footer', footer)
+    // footer.style.position = 'relative';
+    // footer.style.bottom = '-30px';
     var modal = document.getElementById('myModal');
     var modalContent = document.getElementById('modalContent');
 
