@@ -50,17 +50,69 @@ footer {
     opacity: 0.1;
     bottom: 0px;
 }
-.home-page-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 img.LogoImg {
-    position: relative;
+    position: absolute;
     width: 90%;
+}
+img.LogoEffect {
+    position: absolute;
+    width: 90%;
+    left: 10px;
+    top: 15px;
+    opacity: 0.3;
+}
+
+.DotsEffect {
+    animation: Orbit 6s linear 1;
+}
+.ThreeCEffect {
+    animation: Orbit 8s linear 1;
+}
+@keyframes Orbit {
+    0% {
+    transform: rotate(180deg);
+}
+    100% {
+    transform: rotate(0deg)}
+}
+
+.LotsCEffect {
+     animation: SecondOrbit 10s linear 1;
+}
+@keyframes SecondOrbit {
+    0% {
+    transform: rotate(0deg);
+}
+    100% {
+    transform: rotate(360deg)}
+}
+.WingsEffect {
+    animation: WingsScale 10s linear 1;
+}
+@keyframes WingsScale {
+    0% {
+        transform: scale(0.5,0.5);
+    }
+}
+.LightEffect {
+    display: none;
+    animation: LightScale 2s linear 1;
+     animation-delay: 12s;
 
 }
+@keyframes lightScale {
+    0% {
+        transform: scale(0.1,0.1);
+    }
+    50% {
+        transform: scale(1.5,1.5);
+    }
+     100% {
+        transform: scale(1,1);
+    }
+}
+
 
 header h1 {
     color: white;
