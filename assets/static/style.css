@@ -52,15 +52,19 @@ footer {
 }
 
 img.LogoImg {
+    left: 12.9%;
+    top: -74px;
     position: absolute;
     width: 90%;
+    z-index: -4;
 }
 img.LogoEffect {
     position: absolute;
-    width: 90%;
-    left: 10px;
-    top: 15px;
+    width: 80%;
+    left: 207px;
+    top: -9px;
     opacity: 0.3;
+    z-index: -1;
 }
 
 .DotsEffect {
@@ -78,6 +82,7 @@ img.LogoEffect {
 }
 
 .LotsCEffect {
+     @include circle(radius: 0);
      animation: SecondOrbit 10s linear 1;
 }
 @keyframes SecondOrbit {
