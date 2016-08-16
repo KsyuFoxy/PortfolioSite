@@ -61,8 +61,8 @@ img.LogoImg {
 img.LogoEffect {
     position: absolute;
     width: 80%;
-    left: 207px;
-    top: -9px;
+    left: 200px;
+    top: -152px;
     opacity: 0.3;
     z-index: -1;
 }
