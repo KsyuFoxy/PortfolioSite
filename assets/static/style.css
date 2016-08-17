@@ -67,6 +67,67 @@ img.LogoEffect {
     z-index: -1;
 }
 
+
+@media screen and (max-width:1200px) {
+
+    img.LogoImg {
+        top: -60px;
+        margin-top: 40px;
+    }
+    img.LogoEffect {
+        left: 165px;
+        top: -125px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:992px) {
+    img.LogoImg {
+        top: 0;
+        margin-top: 40px;
+    }
+    img.LogoEffect {
+        left: 123px;
+        top: -49px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:768px) {
+    .container {
+        width: 768px;
+        margin: 0;
+    }
+    img.LogoImg {
+        position: fixed;
+        top: 0;
+        margin-top: 100px;
+    }
+    img.LogoEffect {
+        position: fixed;
+        left: 123px;
+        top: -49px;
+        margin-top: 100px;
+    }
+    .navbar-nav li {
+    padding: 10px 0;
+    font-size: 20px;
+}
+    .navbar-nav li a {
+    padding: 40px 0 40px 150px;
+    text-align: left;
+    font-size: 40px;
+}
+}
+/*@media screen and (max-width:650px) {*/
+    /*img.LogoImg {*/
+        /*top: 0;*/
+    /*}*/
+    /*img.LogoEffect {*/
+        /*left: 112px;*/
+        /*top: -46px;*/
+
+    /*}*/
+/*}*/
+
 .DotsEffect {
     animation: Orbit 6s linear 1;
 }
@@ -129,9 +190,59 @@ h2 {
     color: #ffffff;
 }
 
-header h1.Logo {
+header h1.Logo, h1.Logo-small {
     font-family: 'Asenine Wide', Regular;
     font-size: 52px;
+}
+
+@media screen and (max-width:767px) {
+    .profession, .Logo, .nav-menu {display: none;}
+}
+
+@media screen and (min-width:768px) {
+    .profession-small, .Logo-small, .navbar-header {display: none;}
+}
+
+
+.container-nav>.navbar-collapse.in {
+    display: block;
+    margin-left: 5px;
+    width: 630px;
+    height: 520px;
+    background-color: #100c19;
+    opacity: 0.9;
+
+}
+/*.navbar-nav {*/
+    /*float: left;*/
+    /*margin: 10px;*/
+/*}*/
+
+
+.navbar-nav li a:hover {
+    background: transparent;
+}
+
+.Logo-small {
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+.profession-small {
+    margin-left: 10px;
+    margin-top: -12px;
+    color: #a3a4c5;
+}
+.navbar-toggle {
+    border-color: #ffffff;
+    margin-top: -60px;
+
+}
+.navbar-toggle .icon-bar {
+    background-color: #ffffff;
+    width: 30px;
+}
+.navbar-collapse.in {
+    padding-top: 20px;
 }
 
 p.profession {

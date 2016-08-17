@@ -17,6 +17,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
 <title>{% block title %}Welcome{% endblock %} — Portfolio</title>
+<link rel="icon" href="/static/img/works/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="/static/img/works/favicon.ico" type="image/x-icon"/>
 <body>
   <header>
     <div class="row">
@@ -49,6 +51,32 @@
             </nav>
         </div>
     </div>
+
+  <div class="container container-nav">
+      <div class="navbar-header">
+            <a href="/" class="home-page-logo">
+                <h1 class="Logo-small">OK</h1>
+                <p class="profession-small">Web&Graphic</p>
+            </a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+          </button>
+      </div>
+
+     <div class="navbar-collapse collapse" id="collapsable-nav" aria-expanded="false">
+				<ul class="nav navbar-nav visible-xs our-menu">
+					<li><a class="text-center" href="/about">About</a></li>
+					<li><a class="text-center" href="/portfolio">Portfolio</a></li>
+					<li><a class="text-center" href="/photos">Photos</a></li>
+                    <li><a class="text-center" href="/contact">Contact</a></li>
+				</ul>
+     </div>
+  </div>
+
   </header>
   <div class="container">
     {% block body %}{% endblock %}
