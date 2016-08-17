@@ -32,7 +32,6 @@ a:hover {
 }
 
 header {
-    width: 1200px;
     margin: 0 auto;
 
 }
@@ -67,33 +66,30 @@ img.LogoEffect {
     z-index: -1;
 }
 
-
-@media screen and (max-width:1200px) {
-
-    img.LogoImg {
-        top: -60px;
-        margin-top: 40px;
+@media screen and (max-width:650px) {
+    .MyPhotoImg {
+        min-height: 200px;
+        width: 100%;
+        background-image: url('/static/img/works/PhotoFrame4.png');
     }
-    img.LogoEffect {
-        left: 165px;
-        top: -125px;
-        margin-top: 40px;
+    .AboutPageImg {
+        display: none;
     }
-}
-@media screen and (max-width:992px) {
     img.LogoImg {
         top: 0;
-        margin-top: 40px;
     }
     img.LogoEffect {
-        left: 123px;
-        top: -49px;
-        margin-top: 40px;
+        left: 110px;
+        top: -46px;
+
+    }
+    .TextAbout {
+        width: auto;
     }
 }
-@media screen and (max-width:768px) {
+
+@media screen and (min-width:651px) and (max-width:768px) {
     .container {
-        width: 768px;
         margin: 0;
     }
     img.LogoImg {
@@ -115,18 +111,95 @@ img.LogoEffect {
     padding: 40px 0 40px 150px;
     text-align: left;
     font-size: 40px;
+    }
+    .AboutPage .MyPhotoImg img.AboutPageImg {
+        width: 100%;
+    }
+    .MyPhotoImg {
+        top: 0;
+    }
+    .AboutPage .TextAbout {
+        width: 500px;
+        margin-left: 80px;
+    }
 }
+@media screen and (min-width:769px) and (max-width:992px) {
+    img.LogoImg {
+        top: 0;
+        margin-top: 40px;
+    }
+    img.LogoEffect {
+        left: 123px;
+        top: -49px;
+        margin-top: 40px;
+    }
+    .AboutPage .MyPhotoImg img.AboutPageImg {
+        width: 120%;
+    }
+    .MyPhotoImg {
+        top: 0;
+    }
+    .AboutPage .TextAbout {
+        width: 650px;
+        margin-left: 40px;
+        margin-top: 0;
+    }
+    .ContactContainer .ContactPageImg {
+        width: 145%;
+        margin-top: -345px;
+        margin-left: -80px;
+        z-index: -1;
+    }
 }
-/*@media screen and (max-width:650px) {*/
-    /*img.LogoImg {*/
-        /*top: 0;*/
-    /*}*/
-    /*img.LogoEffect {*/
-        /*left: 112px;*/
-        /*top: -46px;*/
+@media screen and (min-width:993px) and (max-width:1200px) {
 
-    /*}*/
-/*}*/
+    img.LogoImg {
+        top: -60px;
+        margin-top: 40px;
+    }
+    img.LogoEffect {
+        left: 165px;
+        top: -125px;
+        margin-top: 40px;
+    }
+
+    header h1.Logo {
+        font-size: 44px;
+    }
+    p.profession {
+        margin-left: 340px;
+    }
+
+    .AboutPage .TextAbout {
+        width: 440px;
+        margin-left: 0;
+        margin-top: 70px;
+        font-size: 15px;
+        font-weight: 100;
+        text-indent: 30px;
+    }
+    .MyPhotoImg {
+        top: 40px;
+    }
+    .ContactContainer .ContactPageImg {
+        width: 240%;
+    }
+    .ContactContainer p {
+        width: 520px;
+        font-size: 14px;
+        margin: 30px 0 30px -30px;
+        text-align: center;
+    }
+    .ContactContainer img {
+        width: 45%;
+        margin-left: 50px;
+    }
+    /*.ContactContainer img:hover {*/
+        /*width: 40px;*/
+        /*bottom: 0;*/
+
+}
+
 
 .DotsEffect {
     animation: Orbit 6s linear 1;
@@ -195,22 +268,27 @@ header h1.Logo, h1.Logo-small {
     font-size: 52px;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
     .profession, .Logo, .nav-menu {display: none;}
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:769px) {
     .profession-small, .Logo-small, .navbar-header {display: none;}
 }
 
-
+.container-nav>.collapsing {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: #100c19;
+}
 .container-nav>.navbar-collapse.in {
+    position: absolute;
     display: block;
-    margin-left: 5px;
-    width: 630px;
-    height: 520px;
     background-color: #100c19;
     opacity: 0.9;
+    width: 100%;
+    z-index: 1;
 
 }
 /*.navbar-nav {*/
@@ -240,9 +318,6 @@ header h1.Logo, h1.Logo-small {
 .navbar-toggle .icon-bar {
     background-color: #ffffff;
     width: 30px;
-}
-.navbar-collapse.in {
-    padding-top: 20px;
 }
 
 p.profession {
@@ -278,36 +353,39 @@ li.main-menu > a:hover {
     margin-top: 30px;
 }
 
+.contacts-page {
+    top: 75px;
+    z-index: 1;
+}
+
 .contacts {
-    margin-top: 180px;
-    padding-left: 200px;
+    text-align: center;
 }
 
 .contacts-disc {
-    margin-top: 40px;
+    width: 600px;
+    margin: 40px 0 40px -40px;
     font-size: 16px;
+    text-align: center;
 }
 img.ContactPageImg {
-    position: fixed;
-    width: 70%;
-    margin-top: -20px;
-    left: 350px;
+    width: 190%;
+    margin-left: -380px;
+    margin-top: -80px;
     z-index: -1;
 }
 img.AboutPageImg {
-    position: fixed;
-    width: 80%;
-    margin-left: -40px;
-    z-index: -1;
+    width: 170%;
+    z-index: -10;
 }
-.TextAbout {
-    width: 490px;
-    margin-top: 120px;
-    margin-left: 80px;
-    font-size: 16px;
-   font-weight: 100;
-    text-indent: 30px;
-}
+/*.TextAbout {*/
+    /*width: 490px;*/
+    /*margin-top: 120px;*/
+    /*margin-left: 80px;*/
+    /*font-size: 16px;*/
+   /*font-weight: 100;*/
+    /*text-indent: 30px;*/
+/*}*/
 .MyPhoto {
     width: 70%;
     margin-left: 65px;
@@ -389,13 +467,14 @@ img.AboutPageImg {
     color: #ffffff;
 }
 
+.ContactContainer {
+    top: 60px;
+}
 
 .Container-ContactImg {
     display: flex;
-    /*justify-content: center;*/
-   margin-left: 110px;
-    margin-top: 40px;
-    height: 50px;
+    justify-content: center;
+    margin: 20px auto;
 }
 .Container-ContactImg a {
     display: block;
