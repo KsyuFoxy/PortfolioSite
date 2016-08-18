@@ -6,7 +6,8 @@ body:
 <div class="container">
  <div class="AboutPage">
        <div class="col-md-6 col-xs-12 MyPhotoImg">
-          <img class='AboutPageImg' src='/static/img/works/PhotoFrame4.png' />
+          <img class='AboutPageImg' src='/static/img/works/PhotoFrame5.png' />
+          <img class='AboutPageImgSmall visible-xs' src='/static/img/works/PhotoFrame5.1.png' />
        </div>
 
        <div class="col-md-6 col-xs-12 TextAbout">

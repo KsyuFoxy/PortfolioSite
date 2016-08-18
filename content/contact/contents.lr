@@ -31,7 +31,7 @@ body:
            </div>
     </div>
 
-    <div class="col-md-6 col-xs-12">
+    <div class="col-md-6 col-xs-12 ContactPageImgDiv">
         <img class='ContactPageImg' src='/static/img/works/HalfCyrcle.png' />
     </div>
 </div>
