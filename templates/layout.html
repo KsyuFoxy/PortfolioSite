@@ -22,36 +22,38 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
   <header>
-    <div class="row">
-        <div class="col-md-8 col-xs-12">
-            <a href="/" class="home-page-logo">
-                <h1 class="Logo">Oksana Kondratiuk</h1>
-                <p class="profession">web & graphic designer</p>
-            </a>
-        </div>
-        <div class="col-md-4 col-xs-12 nav-menu">
-            <nav>
-              <ul class="nav navbar-nav">
-                {% for href, title in [
-                  ['/about', 'About'],
-                  ['/portfolio', 'Portfolio'],
-                  ['/photos', 'Photos'],
-                  ['/contact', 'Contact']
-                ] %}
-                  <li
-                      {% if this.is_child_of(href) %}
-                        class="main-menu active"
-                      {% else %}
-                          class="main-menu"
-                      {% endif %}
-                  >
-                      <a  href="{{ href|url }}">{{ title }}</a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </nav>
-        </div>
-    </div>
+
+            <div class="row Header-LogoBig">
+                <div class="col-md-8 col-sm-7">
+                    <a href="/" class="home-page-logo">
+                        <h1 class="Logo">Oksana Kondratiuk</h1>
+                        <p class="profession">web & graphic designer</p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-5 nav-menu">
+                    <nav>
+                      <ul class="nav navbar-nav">
+                        {% for href, title in [
+                          ['/about', 'About'],
+                          ['/portfolio', 'Portfolio'],
+                          ['/photos', 'Photos'],
+                          ['/contact', 'Contact']
+                        ] %}
+                          <li
+                              {% if this.is_child_of(href) %}
+                                class="main-menu active"
+                              {% else %}
+                                  class="main-menu"
+                              {% endif %}
+                          >
+                              <a  href="{{ href|url }}">{{ title }}</a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+
 
   <div class="container container-nav">
       <div class="navbar-header">

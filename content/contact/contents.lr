@@ -10,7 +10,7 @@ body:
 
     <div class="col-md-6 col-xs-12 contacts-page">
         <h2 class="contacts">Contact</h2>
-        <p class="contacts-disc">If you want to collaborate you are always welcome to my UX Design world.</p>
+        <p class="text-center">If you want to collaborate you are always welcome to my UX Design world.</p>
 
            <div class="Container-ContactImg">
                 <a href="https://www.xing.com/profile/Oksana_Kondratiuk?sc_o=mxb_p" target="_blank">

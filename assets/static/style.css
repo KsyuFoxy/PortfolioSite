@@ -68,10 +68,7 @@ img.LogoEffect {
   img.AboutPageImgSmall {
         width: 100%;
     }
-.Logo-small {
-    margin-bottom: 0;
-    margin-left: 30px;
-}
+
 .profession-small {
     margin-left: 25px;
     margin-top: -12px;
@@ -143,15 +140,10 @@ h2 {
 header h1.Logo, h1.Logo-small {
     font-family: 'Asenine Wide', Regular;
     font-size: 52px;
+    margin-left: 30px;
 }
 
-@media screen and (max-width:768px) {
-    .profession, .Logo, .nav-menu {display: none;}
-}
 
-@media screen and (min-width:769px) {
-    .profession-small, .Logo-small, .navbar-header {display: none;}
-}
 
 .container-nav>.collapsing {
     position: absolute;
@@ -352,7 +344,7 @@ img.AboutPageImg {
 }
 .Container-ContactImg img:hover {
     width: 50px;
-    bottom: 5px;
+    top: -10px;
     left: -5px;
 }
 
@@ -490,6 +482,15 @@ img.AboutPageImg {
     cursor: pointer;
 }
 
+
+@media screen and (max-width:767px) {
+    .profession, .Logo, .nav-menu {display: none;}
+}
+
+@media screen and (min-width:768px) {
+    .profession-small, .Logo-small, .navbar-header {display: none;}
+}
+
 @media screen and (max-width:650px) {
     .MyPhotoImg {
         min-height: 200px;
@@ -504,11 +505,16 @@ img.AboutPageImg {
     img.LogoEffect {
         left: 110px;
         top: -16px;
-
     }
-    .TextAbout {
+    .navbar-nav li a {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 30px;
+    }
+ .TextAbout {
         width: auto;
         margin-left: 30px;
+        margin-bottom: 30px;
     }
     .container-works {
         display: block;
@@ -554,14 +560,9 @@ img.AboutPageImg {
         margin-left: 78px;
         margin-top: -160px;
     }
-    .navbar-nav li a {
-    padding: 40px 0;
-    text-align: center;
-    font-size: 30px;
-    }
 }
 
-@media screen and (min-width:651px) and (max-width:768px) {
+@media screen and (min-width:651px) and (max-width:767px) {
     .container {
         margin: 0;
     }
@@ -576,44 +577,134 @@ img.AboutPageImg {
         top: -49px;
         margin-top: 100px;
     }
-
-    .AboutPage .TextAbout {
-        width: 500px;
-        margin-left: 80px;
-    }
     .AboutPageImg {
         display: none;
     }
-}
-@media screen and (min-width:769px) and (max-width:992px) {
-    img.LogoImg {
-        top: 0;
-        margin-top: 40px;
+    .navbar-nav li a {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 30px;
     }
-    img.LogoEffect {
-        left: 123px;
-        top: -49px;
-        margin-top: 40px;
+    .TextAbout {
+        width: auto;
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
-    .AboutPage .MyPhotoImg img.AboutPageImg {
-        width: 120%;
+    .container-works {
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-top: -20px;
+        margin-left: 0;
     }
-    .MyPhotoImg {
-        top: 0;
+    .container-works-name {
+        display: table;
+        margin: 0 auto;
     }
-    .AboutPage .TextAbout {
-        width: 650px;
-        margin-left: 40px;
-        margin-top: 0;
+    .container-work-img {
+        text-align: -webkit-center;
+        margin-top: 15px;
+        margin-bottom: 30px;
     }
-    .ContactContainer .ContactPageImg {
-        width: 145%;
-        margin-top: -345px;
-        margin-left: -80px;
+
+     .ContactContainer {
+        top: 120px;
+    }
+    .contacts-page {
+        position: absolute;
+        top: 50px;
         z-index: -1;
     }
+    .contacts-page h2 {
+        font-size: 35px;
+    }
+    .contacts-page p {
+        font-size: 16px;
+    }
+    .Container-ContactImg img {
+        width: 40%;
+    }
+    .contacts-disc {
+        margin: 30px 0 40px 30px;
+    }
+    .ContactPageImgDiv {
+        position: absolute;
+        z-index: -2;
+    }
+    img.ContactPageImg {
+        width: 90%;
+        margin-left: 78px;
+        margin-top: -160px;
+    }
 }
-@media screen and (min-width:993px) and (max-width:1200px) {
+@media screen and (min-width:768px) and (max-width:991px) {
+    header h1.Logo {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    p.profession {
+        font-size: 11px;
+        margin-left: 300px;
+    }
+    .navbar-nav li a {
+        padding: 7px;
+    }
+    img.LogoImg {
+        top: 0;
+        margin-top: -40px;
+    }
+    img.LogoEffect {
+        left: 160px;
+        top: -107px;
+
+    }
+    .AboutPage .MyPhotoImg img.AboutPageImg {
+        width: 200%;
+    }
+    .container {
+        width: auto;
+        top: 60px;
+        margin: 0 15px;
+    }
+    .AboutPage .TextAbout {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+    .TextAbout p {
+       font-size: 14px;
+    }
+
+
+     .ContactContainer {
+        top: 120px;
+    }
+    .contacts-page {
+        position: absolute;
+        top: -40px;
+        left: -140px;
+        z-index: -1;
+    }
+
+
+    .contacts-disc {
+        width: auto;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .ContactPageImgDiv {
+        width: auto;
+        position: absolute;
+        z-index: -2;
+    }
+    img.ContactPageImg {
+        width: 100%;
+        margin-left: 78px;
+        margin-top: -195px;
+    }
+
+
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
 
     img.LogoImg {
         top: -60px;
@@ -633,7 +724,7 @@ img.AboutPageImg {
     }
 
     .AboutPage .TextAbout {
-        width: 440px;
+        /*width: 440px;*/
         margin-left: 0;
         margin-top: 70px;
         font-size: 15px;
