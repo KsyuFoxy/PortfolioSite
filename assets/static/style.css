@@ -66,7 +66,7 @@ img.LogoEffect {
     z-index: -1;
 }
   img.AboutPageImgSmall {
-        width: 100%;
+        width: 90%;
     }
 
 .profession-small {
@@ -141,6 +141,7 @@ header h1.Logo, h1.Logo-small {
     font-family: 'Asenine Wide', Regular;
     font-size: 52px;
     margin-left: 30px;
+    z-index: 1;
 }
 
 
@@ -179,9 +180,14 @@ header h1.Logo, h1.Logo-small {
 p.profession {
     color: #a3a4c5;
     margin: -20px 0 0 380px;
+    z-index: 1;
 }
 .TextAbout p {
+    font-size: 16px;
     text-indent: 20px;
+}
+.TextAbout {
+    margin-top: 120px;
 }
 
 header nav ul {
@@ -210,10 +216,11 @@ li.main-menu > a:hover {
 
 .nav-menu {
     margin-top: 30px;
+     z-index: 1;
 }
 
 .contacts-page {
-    top: 75px;
+    top: 110px;
     z-index: 1;
 }
 
@@ -229,7 +236,7 @@ li.main-menu > a:hover {
 }
 img.ContactPageImg {
     width: 190%;
-    margin-left: -380px;
+    margin-left: -275px;
     margin-top: -80px;
     z-index: -1;
 }
@@ -491,6 +498,7 @@ img.AboutPageImg {
     .profession-small, .Logo-small, .navbar-header {display: none;}
 }
 
+
 @media screen and (max-width:650px) {
     .MyPhotoImg {
         min-height: 200px;
@@ -513,8 +521,12 @@ img.AboutPageImg {
     }
  .TextAbout {
         width: auto;
+        margin-top: 10px;
         margin-left: 30px;
         margin-bottom: 30px;
+    }
+ .TextAbout p {
+       font-size: 14px;
     }
     .container-works {
         display: block;
@@ -536,7 +548,7 @@ img.AboutPageImg {
     }
     .contacts-page {
         position: absolute;
-        top: 50px;
+        top: 0;
         z-index: -1;
     }
     .contacts-page h2 {
@@ -561,6 +573,13 @@ img.AboutPageImg {
         margin-top: -160px;
     }
 }
+
+/*@media screen and (max-width:380px) {*/
+    /*img.LogoEffect {*/
+        /*left: 64px;*/
+        /*top: 4px;*/
+    /*}*/
+/*}*/
 
 @media screen and (min-width:651px) and (max-width:767px) {
     .container {
@@ -587,8 +606,12 @@ img.AboutPageImg {
     }
     .TextAbout {
         width: auto;
+        margin-top: 0;
         margin-left: 30px;
         margin-bottom: 30px;
+    }
+    .TextAbout p {
+       font-size: 14px;
     }
     .container-works {
         display: block;
@@ -666,6 +689,9 @@ img.AboutPageImg {
         top: 60px;
         margin: 0 15px;
     }
+    .container-works h2 {
+       margin-top: 10px;
+    }
     .AboutPage .TextAbout {
         margin-left: 0;
         margin-top: 60px;
@@ -673,8 +699,6 @@ img.AboutPageImg {
     .TextAbout p {
        font-size: 14px;
     }
-
-
      .ContactContainer {
         top: 120px;
     }
@@ -684,8 +708,6 @@ img.AboutPageImg {
         left: -140px;
         z-index: -1;
     }
-
-
     .contacts-disc {
         width: auto;
         text-align: center;
@@ -702,17 +724,24 @@ img.AboutPageImg {
         margin-top: -195px;
     }
 
-
 }
 @media screen and (min-width:992px) and (max-width:1200px) {
+    .col-md-8 {
+        width: 60%;
+    }
+    .col-md-4 {
+        width: 40%;
+    }
 
     img.LogoImg {
+        width: 80%;
         top: -60px;
         margin-top: 40px;
     }
     img.LogoEffect {
-        left: 165px;
-        top: -125px;
+        width: 70%;
+        left: 166px;
+        top: -114px;
         margin-top: 40px;
     }
 
@@ -722,30 +751,24 @@ img.AboutPageImg {
     p.profession {
         margin-left: 340px;
     }
-
-    .AboutPage .TextAbout {
-        /*width: 440px;*/
-        margin-left: 0;
-        margin-top: 70px;
-        font-size: 15px;
-        font-weight: 100;
-        text-indent: 30px;
+    .container-works h2 {
+       margin-top: 10px;
     }
     .MyPhotoImg {
         top: 40px;
     }
-    .ContactContainer .ContactPageImg {
-        width: 240%;
+    .container {
+        width: auto;
     }
-    .ContactContainer p {
-        width: 520px;
-        font-size: 14px;
-        margin: 30px 0 30px -30px;
-        text-align: center;
+    img.ContactPageImg {
+        width: 160%;
+        margin-left: -250px;
+        margin-top: -83px;
     }
-    .ContactContainer img {
-        width: 45%;
-        margin-left: 50px;
+    .contacts-page {
+        top: 110px;
     }
+
 }
+
 
