@@ -307,14 +307,14 @@ img.AboutPageImg {
     background-color: black;
     opacity: 0.3;
 }
-.flex-col:hover span {
+.flex-col a:hover span {
     display: block;
 }
 
 .flex-col span {
      position: absolute;
-    display: none;
-    font-size: 30px;
+     display: none;
+     font-size: 30px;
      text-decoration: none;
 }
 .flex-col-People span {
@@ -505,10 +505,12 @@ img.AboutPageImg {
 
 @media screen and (max-width:767px) {
     .profession, .Logo, .nav-menu {display: none;}
+    .portfolio-img {display: none;}
 }
 
 @media screen and (min-width:768px) {
     .profession-small, .Logo-small, .navbar-header {display: none;}
+    .portfolio-imgSmall {display: none;}
 }
 
 
@@ -581,6 +583,19 @@ img.AboutPageImg {
         margin-left: 78px;
         margin-top: -160px;
     }
+    .flex-row {
+        display: block;
+        width: 60%;
+       margin: auto;
+    }
+    .portfolio-imgSmall {
+        width: 100%;
+    }
+    .flex-col span {
+        text-align: center;
+     font-size: 20px;
+    }
+
 }
 
 @media screen and (min-width:651px) and (max-width:767px) {
@@ -653,6 +668,22 @@ img.AboutPageImg {
         margin-left: 78px;
         margin-top: -160px;
     }
+    .portfolio-container {
+       display: block;
+    }
+
+    .flex-row {
+        display: block;
+        width: 60%;
+       margin: auto;
+    }
+    .flex-col span {
+        text-align: center;
+     font-size: 30px;
+    }
+    .portfolio-imgSmall {
+        width: 100%;
+    }
 }
 @media screen and (min-width:768px) and (max-width:991px) {
     header h1.Logo {
@@ -707,6 +738,9 @@ img.AboutPageImg {
         width: 100%;
         margin-left: 78px;
         margin-top: -195px;
+    }
+    .flex-col-PeopleSmall {
+        display: none;
     }
 
 }
