@@ -30,6 +30,7 @@ body:
                 </a>
 
             </div>
+
             <div class="flex-col flex-col-other">
                 <a href="food">
                     <img class='portfolio-img' src='/static/img/works/Ice-cream.jpg'/>

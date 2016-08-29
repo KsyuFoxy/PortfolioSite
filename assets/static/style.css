@@ -469,10 +469,9 @@ img.AboutPageImg {
 
 /* Modal Content/Box */
 .modal-content {
-    width: 47%;
     position: absolute;
     background-color: #ffffff;
-    top: 40px;
+    top: 10px;
     border: 1px solid #888;
     left:0;
     right:0;
@@ -483,6 +482,10 @@ img.AboutPageImg {
 .modal-img {
     width: 100%;
     border-radius: 6px;
+}
+
+.modal-img:hover {
+    cursor: zoom-out;
 }
 
 /* The Close Button */
