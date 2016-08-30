@@ -505,7 +505,6 @@ img.AboutPageImg {
     cursor: pointer;
 }
 
-
 @media screen and (max-width:767px) {
     .profession, .Logo, .nav-menu {display: none;}
     .portfolio-img {display: none;}
@@ -588,7 +587,7 @@ img.AboutPageImg {
     }
     .flex-row {
         display: block;
-        width: 60%;
+        width: 65%;
        margin: auto;
     }
     .portfolio-imgSmall {
@@ -597,6 +596,12 @@ img.AboutPageImg {
     .flex-col span {
         text-align: center;
      font-size: 20px;
+    }
+      .flex-col-People {
+        display: none;
+    }
+    .flex-col-Big {
+        display: none;
     }
 
 }
@@ -677,7 +682,7 @@ img.AboutPageImg {
 
     .flex-row {
         display: block;
-        width: 60%;
+        width: 65%;
        margin: auto;
     }
     .flex-col span {
@@ -686,6 +691,12 @@ img.AboutPageImg {
     }
     .portfolio-imgSmall {
         width: 100%;
+    }
+    .flex-col-People {
+        display: none;
+    }
+    .flex-col-Big {
+        display: none;
     }
 }
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -742,7 +753,7 @@ img.AboutPageImg {
         margin-left: 78px;
         margin-top: -195px;
     }
-    .flex-col-PeopleSmall {
+    .flex-col-Small {
         display: none;
     }
 
@@ -777,7 +788,14 @@ img.AboutPageImg {
     .contacts-page {
         top: 110px;
     }
+    .flex-col-Small {
+        display: none;
+    }
 
 }
 
-
+@media screen and (min-width:1200px) {
+    .flex-col-Small {
+        display: none;
+    }
+}
